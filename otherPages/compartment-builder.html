@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+      <link rel="stylesheet" href="css/fonts/fontawesome-all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Cazner: Edit The Product</title>
+   </head>
+   <body class="compartment-builder-page">
+      <!-- Header section Start-->
+      <header id="header">
+         <div class="container">
+            <div class="row">
+               <!--Logo section-->
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  <div class="logo-section">
+                     <a href="javascript:void(0)"><img src="images/orso-logo.svg" alt="Orso"></a>
+                  </div>
+               </div>
+               <!--Logo section End-->
+               <!--Header right section-->
+               <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                  <ul class="d-flex justify-content-end header-right-section">
+                     <li>
+                        <label class="custom-select-box">
+                           <select class="">
+                              <option>USD</option>
+                              <option>INR</option>
+                              <option>USD</option>
+                           </select>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="custom-select-box">
+                           <select class="">
+                              <option>EN</option>
+                              <option>FR</option>
+                              <option>UE</option>
+                           </select>
+                        </label>
+                     </li>
+                     <li class="my-account">
+                        <img src="images/login-icon.svg" /> My Account
+                     </li>
+                  </ul>
+               </div>
+               <!--Header right section End-->
+            </div>
+         </div>
+      </header>
+      <!-- Header section End-->
+      <!--Page Title-->
+      <section class="page-title-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 col-md-4 col-sm-12">
+                  <h1 class="page-heading">Edit The Product</h1>
+               </div>
+               <div class="col-lg-6 col-md-8 col-sm-12">
+                  <ul class="d-flex justify-content-end product-steps">
+                     <li class="active"><i>Product Details</i><span>1</span></li>
+                     <li><i>Media</i><span>2</span></li>
+                     <li><i>Color, Size & Price</i><span>3</span></li>
+                     <li><i>Compartment</i><span>4</span></li>
+                     <li><i>Success</i><span>5</span></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Page Title End-->
+      <section class="edit-product-section ">
+         <div class="container">
+            <!-- Product details icon -->
+            <div class="white-block-padd box-shadow">
+              <h2 class="section-heading mb-2 mt-2">Edit the product</h2>
+
+              <div class="row mt-4 mb-4">
+                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                      <button class="white-lg-box-outline m-1 text-center w-100" data-toggle="modal" data-target="#compartmentModal">
+                        <img src="images/plus-icon.svg" alt="" class="icon">
+                        <span>New Physical Product</span>
+                      </button>
+                  </div><!-- col-4 -->
+                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                      <button class="gray-lg-box-outline  m-1 text-center w-100">
+                        <img src="images/Diamond.svg" alt="" class="icon">
+                        <span>New Service Product</span>
+                      </button>
+                  </div><!-- col-4 -->
+                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                      <button class="gray-lg-box-outline m-1 text-center w-100">
+                        <img src="images/settings.svg" alt="" class="icon">
+                        <span>Supplier Product</span>
+                      </button>
+                  </div><!-- col-4 -->
+                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                      <button class="gray-lg-box-outline m-1 text-center w-100">
+                        <img src="images/upload.svg" alt="" class="icon">
+                        <span>Import .xlsx or SLV</span>
+                      </button>
+                  </div><!-- col-4 -->
+              </div>
+            </div>
+         </div>
+      </section>
+      <!-- product-details-box -->
+
+      <section class="product-details-box">
+         <div class="container">
+            <!-- Product details block -->
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
+                <div class="box-shadow white-block-padd product-details-block w-100">
+                   <div class="row">
+                      <div class="col-sm-6">
+                         <div class="form-group">
+                            <label>Product SKU</label>
+                            <input type="text" placeholder="Product SKU" class="form-control" value="Btl-Red-09">
+                         </div>
+                      </div>
+                      <div class="col-sm-6">
+                         <div class="form-group">
+                            <label>Product id</label>
+                            <input type="text" placeholder="Product id" class="form-control" value="M6045" readonly="">
+                         </div>
+                      </div>
+                      <div class="col-sm-12">
+                         <div class="form-group">
+                            <label>Product title</label>
+                            <input type="text" placeholder="Product title" class="form-control" value="Elegant blanket, 125 x 160 cm size.">
+                         </div>
+                      </div>
+                      <div class="col-sm-12">
+                         <div class="form-group">
+                            <label>Product descripition</label>
+                            <textarea id="" name="" class="form-control" placeholder="Product Descripition" rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris massa felis, cursus vitae tincidunt at, tempus sit amet velit. Cras blandit, mauris vitae pulvinar accumsan, dolor ante tempus risus elit. Mauris massa felis, cursus vitae tincidunt at, tempus sit amet velit. Cras blandit, mauris vitae pulvinar accumsan, dolor ante tempus risus
+                            </textarea>
+                         </div>
+                      </div>
+                   </div>
+                </div><!-- Product details block end-->
+              </div><!-- col-6 -->
+              <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
+                <div class="box-shadow white-block-padd product-details-block w-100">
+                  <div class="change-image-block">
+                    <div class="form-group">
+                      <label>Product Image</label>
+                      <div class="image-block">
+                        <img class="product-image" src="images/product-image.png" alt="">
+                        <button class="btn btn-outline-secondary">
+                          <i class="fa fa-image d-block mb-1"></i>
+                          <span>Change Image</span>
+                        </button>
+                      </div><!-- image-block -->
+                      <button type="button" class="btn btn-outline-secondary mt-3">Add Media from url</button>
+                    </div><!-- form-group -->
+                  </div><!-- change-image-block -->
+                </div><!-- box-shadow -->
+              </div><!-- col-6 -->
+            </div>
+            <!-- row -->
+         </div><!-- container -->
+      </section>
+      <!-- product-details-box -->
+
+      <section class="price-details-section">
+         <div class="container">
+          <div class="white-block-padd box-shadow">
+            <div class="d-flex inner-section-headings justify-content-between">
+              <h2>Price</h2>
+              <a href="javascript:void(0)" class="inner-section-btn">Add Product Badge</a>
+            </div>
+
+            <div class="row mt-5 align-items-end">
+              <div class="col ">
+                <div class="form-group profit-col">
+                  <label>Profit</label>
+                  <input type="text" class="form-control" id="" value="$230.00">
+                </div><!-- form-group -->
+              </div><!-- col -->
+
+              <div class="col ">
+                <div class="form-group">
+                  <label>Unit price</label>
+                  <input type="text" class="form-control" id="" placeholder="Enter">
+                </div><!-- form-group -->
+              </div><!-- col -->
+
+              <div class="col ">
+                <div class="form-group">
+                  <label>Cost per item</label>
+                  <input type="text" class="form-control" id="" placeholder="Enter">
+                </div><!-- form-group -->
+              </div><!-- col -->
+
+
+              <div class="col ">
+                <div class="form-group">
+                  <label>Margin increase on sale price</label>
+                  <input type="text" class="form-control" id="" placeholder="Enter">
+                </div><!-- form-group -->
+              </div><!-- col -->
+
+              <div class="col ">
+                <div class="form-group">
+                  <label>Sale price ($0.00) %</label>
+                  <input type="text" class="form-control" id="" placeholder="Enter">
+                </div><!-- form-group -->
+              </div><!-- col -->
+
+              <div class="switch-col ">
+                <div class="form-group">
+                  <label>On sale</label>
+                  <div class="button-switch">
+                    <input type="checkbox" id="switch-green" class="switch" checked="">
+                    <label for="switch-green" class="lbl-off">No</label>
+                    <label for="switch-green" class="lbl-on">Yes</label>
+                  </div>
+                </div><!-- form-group -->
+              </div><!-- col -->
+
+              <div class="col ">
+                <div class="form-group">
+                  <label>Minimum order quantity</label>
+                  <input type="text" class="form-control" id="" placeholder="Enter">
+                </div><!-- form-group -->
+              </div><!-- col -->
+
+              <div class="col ">
+                <div class="form-group">
+                  <label>Deposit required %</label>
+                  <input type="text" class="form-control" id="" placeholder="Enter">
+                </div><!-- form-group -->
+              </div><!-- col -->
+            </div><!-- row -->
+            <div class="row">
+              <div class="col">
+                <div class="custom-form-check form-group d-inline-block mr-5">
+                  <input class="custom-form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked="">
+                  <label class="custom-form-check-label" for="exampleRadios1">Charge tax on this</label>
+                </div>
+                <div class="custom-form-check form-group d-inline-block mr-5">
+                  <input class="custom-form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="custom-form-check-label" for="exampleRadios2">Product has price variant</label>
+                </div>
+              </div><!-- col-12 -->
+            </div>
+            <!-- discount-form-block -->
+          </div>
+          <!-- white-block -->
+         </div>
+       </section>
+      <!-- price-details-section -->
+
+
+
+      <!-- Modal -->
+      <div class="modal fade compartmentModal " id="compartmentModal" tabindex="-1" aria-labelledby="compartmentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <i class="fa fa-times float-right close-popup" data-dismiss="modal"></i>
+              <div class="row m-0">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 left_sec p-0">
+                  <div class="content">
+                    <h2 class="section-heading mb-2">11OZ/320ML Plastic karma kup plastic flip lid</h2>
+                    <span>10016</span>
+                    <hr>
+                    <div class="color-block mb-3">
+                      <h5 class="mb-1">LED COLOUR</h5>
+                      <small class="d-block mb-0">Choose a color</small>
+                      <div class="form-group d-flex justify-content-between">
+                         <div class="checkbox-container-square white black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color1" id="white">
+                            <label for="white"></label>
+                         </div>
+                         <div class="checkbox-container-square black black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color1" id="black" >
+                            <label for="black"></label>
+                         </div>
+                         <div class="checkbox-container-square yellow black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color1" id="yellow" >
+                            <label for="yellow"></label>
+                         </div>
+                         <div class="checkbox-container-square blue black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color1" id="blue" >
+                            <label for="blue"></label>
+                         </div>
+                         <div class="checkbox-container-square red black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color1" id="red" checked="">
+                            <label for="red"></label>
+                         </div>
+                         <div class="checkbox-container-square pink black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color1" id="pink">
+                            <label for="pink"></label>
+                         </div>
+                         <div class="checkbox-container-square indigo black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color1" id="indigo">
+                            <label for="indigo"></label>
+                         </div>
+                         <div class="checkbox-container-square green black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color1" id="green">
+                            <label for="green"></label>
+                         </div>
+                         <div class="checkbox-container-square skyblue black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color1" id="skyblue">
+                            <label for="skyblue"></label>
+                         </div>
+                         <div class="checkbox-container-square darkindigo black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color1" id="darkindigo">
+                            <label for="darkindigo"></label>
+                         </div>
+                         <div class="checkbox-container-square darkred black-box-check d-inline-block">
+                            <input class="cz-check" type="radio" name="color1" id="darkred">
+                            <label for="darkred"></label>
+                         </div>
+                      </div><!-- form-group -->
+                    </div><!-- color-block -->
+
+                    <div class="color-block mb-3">
+                      <h5 class="mb-1">BAND COLOUR</h5>
+                      <small class="d-block mb-0">Choose a color</small>
+                      <div class="form-group d-flex justify-content-between">
+                         <div class="checkbox-container-square white black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color2" id="white2">
+                            <label for="white2"></label>
+                         </div>
+                         <div class="checkbox-container-square black black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color2" id="black2" >
+                            <label for="black2"></label>
+                         </div>
+                         <div class="checkbox-container-square yellow black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color2" id="yellow2" >
+                            <label for="yellow2"></label>
+                         </div>
+                         <div class="checkbox-container-square blue black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color2" id="blue2" >
+                            <label for="blue2"></label>
+                         </div>
+                         <div class="checkbox-container-square red black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color2" id="red2">
+                            <label for="red2"></label>
+                         </div>
+                         <div class="checkbox-container-square pink black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color2" id="pink2">
+                            <label for="pink2"></label>
+                         </div>
+                         <div class="checkbox-container-square indigo black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color2" id="indigo2">
+                            <label for="indigo2"></label>
+                         </div>
+                         <div class="checkbox-container-square green black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color2" id="green2">
+                            <label for="green2"></label>
+                         </div>
+                         <div class="checkbox-container-square skyblue black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color2" id="skyblue2">
+                            <label for="skyblue2"></label>
+                         </div>
+                         <div class="checkbox-container-square darkindigo black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color2" id="darkindigo2">
+                            <label for="darkindigo2"></label>
+                         </div>
+                         <div class="checkbox-container-square darkred black-box-check d-inline-block">
+                            <input class="cz-check" type="radio" name="color2" id="darkred2">
+                            <label for="darkred2"></label>
+                         </div>
+                      </div><!-- form-group -->
+                    </div><!-- color-block -->
+
+                    <div class="color-block mb-3">
+                      <h5 class="mb-1">STOPPER COLOUR</h5>
+                      <small class="d-block mb-0">Choose a color</small>
+                      <div class="form-group d-flex justify-content-between">
+                         <div class="checkbox-container-square white black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color3" id="white3">
+                            <label for="white3"></label>
+                         </div>
+                         <div class="checkbox-container-square black black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color3" id="black3" >
+                            <label for="black3"></label>
+                         </div>
+                         <div class="checkbox-container-square yellow black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color3" id="yellow3" >
+                            <label for="yellow3"></label>
+                         </div>
+                         <div class="checkbox-container-square blue black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color3" id="blue3" >
+                            <label for="blue3"></label>
+                         </div>
+                         <div class="checkbox-container-square red black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color3" id="red3">
+                            <label for="red3"></label>
+                         </div>
+                         <div class="checkbox-container-square pink black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color3" id="pink3">
+                            <label for="pink3"></label>
+                         </div>
+                         <div class="checkbox-container-square indigo black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color3" id="indigo3">
+                            <label for="indigo3"></label>
+                         </div>
+                         <div class="checkbox-container-square green black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color3" id="green3">
+                            <label for="green3"></label>
+                         </div>
+                         <div class="checkbox-container-square skyblue black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color3" id="skyblue3">
+                            <label for="skyblue3"></label>
+                         </div>
+                         <div class="checkbox-container-square darkindigo black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color3" id="darkindigo3">
+                            <label for="darkindigo3"></label>
+                         </div>
+                         <div class="checkbox-container-square darkred black-box-check d-inline-block">
+                            <input class="cz-check" type="radio" name="color3" id="darkred3">
+                            <label for="darkred3"></label>
+                         </div>
+                      </div><!-- form-group -->
+                    </div><!-- color-block -->
+
+                    <div class="color-block mb-3">
+                      <h5 class="mb-1">LED STYLE</h5>
+                      <small class="d-block mb-0">Choose a color</small>
+                      <div class="form-group d-flex justify-content-between">
+                         <div class="checkbox-container-square grey black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color10" id="white10" checked="">
+                            <label class="p-0" for="white10"><img src="images/led-glass.png" alt=""></label>
+                         </div>
+
+                         <div class="checkbox-container-square grey black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color10" id="white11" >
+                            <label class="p-0" for="white11"><img src="images/led-glass.png" alt=""></label>
+                         </div>
+
+                         <div class="checkbox-container-square grey black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color10" id="white12" >
+                            <label class="p-0" for="white12"><img src="images/led-glass.png" alt=""></label>
+                         </div>
+
+                         <div class="checkbox-container-square grey black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color10" id="white13" >
+                            <label class="p-0" for="white13"><img src="images/led-glass.png" alt=""></label>
+                         </div>
+
+                         <div class="checkbox-container-square grey black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color10" id="white14" >
+                            <label class="p-0" for="white14"><img src="images/led-glass.png" alt=""></label>
+                         </div>
+
+                         <div class="checkbox-container-square grey black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color10" id="white15" >
+                            <label class="p-0" for="white15"><img src="images/led-glass.png" alt=""></label>
+                         </div>
+
+                         <div class="checkbox-container-square grey black-box-check d-inline-block mr-1">
+                            <input class="cz-check" type="radio" name="color10" id="white16" >
+                            <label class="p-0" for="white16"><img src="images/led-glass.png" alt=""></label>
+                         </div>
+
+                         <div class="checkbox-container-square grey black-box-check d-inline-block">
+                            <input class="cz-check" type="radio" name="color10" id="white17" >
+                            <label class="p-0" for="white17"><img src="images/led-glass.png" alt=""></label>
+                         </div>
+
+
+                      </div><!-- form-group -->
+                    </div><!-- color-block -->
+                  </div>
+                </div><!-- col-6 -->
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 right_sec p-0">
+                  <div class="content">
+                    <div class="check-block mb-2">
+                      <i class="icon fa fa-check-circle mr-2"></i><span>Select a colour for each component from the panel on the left.</span>
+                    </div>
+
+                    <div class="check-block mb-2">
+                      <i class="icon fa fa-check-circle mr-2"></i><span>The colours shown are approximate, and are for visualising the colour combinations only.</span>
+                    </div>
+
+                    <div class="text-center w-100 p-4"><img class="large-image" src="images/glass-green.png" alt=""></div>
+
+                  </div><!-- content -->
+                </div><!-- col-6 -->
+
+              </div><!-- row -->
+
+              <section class="note-section">
+                <div class="note-block p-3">
+                  <div class="row">
+                    <div class="col-md-12 text-right">
+                      <button data-dismiss="modal" type="button" class="btn text-black btn-link mr-3">Cancel</button>
+                      <button data-dismiss="modal" type="button" class="btn btn-dark">Save</button>
+                    </div>
+                  </div><!-- row -->
+                </div><!-- note-block -->
+             </section>
+
+            </div><!-- modal-body -->
+          </div><!-- modal-content -->
+        </div><!-- modal-xl -->
+      </div><!-- modal -->
+
+      <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper)
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script> -->
+      <!-- Option 2: jQuery, Popper.js, and Bootstrap JS-->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+
+      <script>
+        
+          // file drag drop js
+          function readUrl(input) {
+            if (input.files && input.files[0]) {
+              let reader = new FileReader();
+              reader.onload = e => {
+                let imgData = e.target.result;
+                let imgName = input.files[0].name;
+                $('.cz-upload-text').html(imgName);
+                console.log(e.target.result);
+              };
+              reader.readAsDataURL(input.files[0]);
+            }
+          }
+
+          
+        
+      </script> 
+   </body>
+</html>

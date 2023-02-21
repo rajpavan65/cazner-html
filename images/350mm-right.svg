@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.425" height="82.009" viewBox="0 0 20.425 82.009">
+  <g id="Group_15443" data-name="Group 15443" transform="translate(-1380.005 -3200)">
+    <g id="Group_14421" data-name="Group 14421" transform="translate(1386.92 3200) rotate(90)">
+      <line id="Line_360" data-name="Line 360" x2="76.818" transform="translate(2.426 3.458)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Polygon_1" data-name="Polygon 1" d="M3.458,0,6.916,6.051H0Z" transform="translate(82.009 0) rotate(90)" fill="#707070"/>
+      <path id="Polygon_2" data-name="Polygon 2" d="M3.458,0,6.916,6.051H0Z" transform="translate(0 6.916) rotate(-90)" fill="#707070"/>
+    </g>
+    <text id="_350mm" data-name="350mm" transform="translate(1397.429 3241) rotate(-90)" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-18.123" y="0">350mm</tspan></text>
+  </g>
+</svg>

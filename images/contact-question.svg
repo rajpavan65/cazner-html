@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.089" height="43.089" viewBox="0 0 43.089 43.089">
+  <g id="question" transform="translate(0.75 0.75)">
+    <g id="Group_18083" data-name="Group 18083" transform="translate(18.715 29.112)">
+      <g id="Group_18082" data-name="Group 18082">
+        <rect id="Rectangle_17581" data-name="Rectangle 17581" width="4.159" height="4.159" fill="#707070" stroke="#fff" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g id="Group_19503" data-name="Group 19503">
+      <path id="Path_18358" data-name="Path 18358" d="M20.794,0A20.794,20.794,0,1,0,41.589,20.794,20.795,20.795,0,0,0,20.794,0Zm0,37.825A17.031,17.031,0,1,1,37.825,20.794,17.031,17.031,0,0,1,20.794,37.825Z" fill="#707070" stroke="#fff" stroke-width="1.5"/>
+      <g id="Group_18087" data-name="Group 18087" transform="translate(12.477 8.277)">
+        <g id="Group_18086" data-name="Group 18086">
+          <path id="Path_18359" data-name="Path 18359" d="M144.406,91.3A8.318,8.318,0,0,0,128,93.276h4.159a4.174,4.174,0,1,1,8.318.707,4.325,4.325,0,0,1-4.388,3.452,1.851,1.851,0,0,0-1.851,1.851h0v4.388H138.4V101.3A8.318,8.318,0,0,0,144.406,91.3Z" transform="translate(-127.999 -84.918)" fill="#707070" stroke="#fff" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

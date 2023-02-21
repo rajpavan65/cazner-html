@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fonts/fontawesome-all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cazner: Customer Order History</title>
+  </head>
+  <body class="edit-product-page">
+    <!-- Header section Start-->
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <!--Logo section-->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="logo-section">
+              <a href="javascript:void(0)"><img src="images/orso-logo.svg" alt="Orso"></a>
+            </div>
+          </div>
+          <!--Logo section End-->
+          <!--Header right section-->
+          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <ul class="d-flex justify-content-end header-right-section">
+              <li>
+                <label class="custom-select-box">
+                  <select class="">
+                    <option>USD</option>
+                    <option>INR</option>
+                    <option>USD</option>
+                  </select>
+                </label>
+              </li>
+              <li>
+                <label class="custom-select-box">
+                  <select class="">
+                    <option>EN</option>
+                    <option>FR</option>
+                    <option>UE</option>
+                  </select>
+                </label>
+              </li>
+              <li class="my-account">
+                <img src="images/login-icon.svg" /> My Account
+              </li>
+            </ul>
+          </div>
+          <!--Header right section End-->
+        </div>
+      </div>
+    </header>
+    <!-- Header section End-->
+    <!--Page Title-->
+    <section class="page-title-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-md-10 col-sm-10 section-left">
+            <h1 class="page-heading">Customer Order History</h1>
+          </div>
+          <!-- <div class="col-lg-2 col-md-2 col-sm-2 text-right">
+            <button type="button" class="btn btn-outline-light"><i class="fa fa-list pl-2 pr-2"></i></button>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!--Page Title End-->
+    <div class="private-customer-edit position-relative">
+      <div class="container">
+        <div class="white-block-padd box-shadow">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="customer-avtar-details d-flex">
+                <div class="customer-avtar-img">
+                  <img src="images/profile-pic-male.svg" alt="Profile" title="Profile">
+                </div>
+                <div class="customer-avtar-info">
+                  <p>Andrew Peterson
+                    <span>Manager</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <p class="company-name-box"><!-- <img src="images/profile-pic-male.svg" alt="Profile" title="Profile">  -->Andrew Industries Pvt. Ltd.</p>
+              <p class="phone-box"><!-- <img src="images/profile-pic-male.svg" alt="Profile" title="Profile"> --> Business Phone Number: <span>+17987558542</span>
+            </p>
+          </div>
+          <div class="col-sm-3">
+            <p class="address-box"><!-- <img src="images/profile-pic-male.svg" alt="Profile" title="Profile"> --> <span>Address:</span>
+            418 Sandford Street, Punta<br> Gorda, Florida, 33950
+          </p>
+        </div>
+        <div class="col-sm-2 text-right">
+          <button class="btn btn-dark" type="button"><img src="images/edit-icon.svg" alt="Edit" title="Ed"> Edit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="position-relative private-customer">
+  <div class="container">
+    <h2 class="inner-title">Your Orders</h2>
+    <div class="white-block-padd box-shadow">
+      
+      <div class="row  inner-section-headings justify-content-between align-items-start">
+        <div class="col-lg-4 col-md-4 col-sm-12 p-0">
+          <ul class="tabs-custom">
+            <li class="active"><a href="#">All</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Returning</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 p-0 text-right">
+          <div class="product-list-button">
+            <div class="dropdown d-inline-block">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Type</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown d-inline-block">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tagged With</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown d-inline-block">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tagged With</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div>
+              <button class="btn btn-outline-secondary" type="button" >Shot by <i class="fa fa-sort ml-2"></i></button>
+            </div>
+            <div class="search-box d-inline-block">
+              <i class="fas fa-search"></i>
+              <input type="" name="" class="form-control" placeholder="Type in to search">
+            </div>
+            <!-- <div>
+              <button class="btn btn-outline-secondary" type="button" ><i class="fa fa-ellipsis-v pl-2 pr-2"></i></button>
+            </div> -->
+          </div>
+        </div>
+        </div><!-- d-flex -->
+        <div>
+          <div class="row ">
+            <div class="col-md-12">
+              <div class="table-responsive">
+                <table class="table product-variant-table product-list-table">
+                  <thead class="thead-light">
+                    <tr>
+                      <th width="142px">Order ID</th>
+                      <th >Order Date</th>
+                      <th >Reference</th>
+                      <th>Total</th>
+                      <th>Status</th>
+                      <th>Branding Artwork</th>
+                      <th>Products In Order</th>
+                      <th style="width: 10px"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>OD123456</td>
+                      <td>03/07/2020</td>
+                      <td>Mens Green Tshirt</td>
+                      <td>$ 120</td>
+                      <td class="green-color">Submitted</td>
+                      <td>
+                        <div class="artwork-section">
+                          <img class="" src="images/artwork-icon1.svg">
+                          <img class="" src="images/artwork-icon2.svg">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tshirt-section">
+                          <img class="product-image" src="images/green-tshirt.png">
+                          <img class="product-image" src="images/yellow-tshirt.svg">
+                          <img class="product-image" src="images/pink-tshirt.svg">
+                        </div>
+                      </td>
+                      <td><a href="" class="ml-2 text-secondary"><i class="fa fa-ellipsis-v"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>OD123456</td>
+                      <td>03/07/2020</td>
+                      <td>Mens Green Tshirt</td>
+                      <td>$ 120</td>
+                      <td class="blue-color">Accepted</td>
+                      <td>
+                        <div class="artwork-section">
+                          <img class="" src="images/artwork-icon1.svg">
+                          <img class="" src="images/artwork-icon2.svg">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tshirt-section">
+                          <img class="product-image" src="images/gray-tshirt.svg">
+                          <img class="product-image" src="images/pink2-tshirt.svg">
+                          <img class="product-image" src="images/green-tshirt.png">
+                          
+                        </div>
+                      </td>
+                      <td><a href="" class="ml-2 text-secondary"><i class="fa fa-ellipsis-v"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>OD123456</td>
+                      <td>03/07/2020</td>
+                      <td>Mens Green Tshirt</td>
+                      <td>$ 120</td>
+                      <td class="green-color">Approve Art</td>
+                      <td>
+                        <div class="artwork-section">
+                          <img class="" src="images/artwork-icon1.svg">
+                          <img class="" src="images/artwork-icon2.svg">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tshirt-section">
+                          <img class="product-image" src="images/green-tshirt.png">
+                          <img class="product-image" src="images/green-tshirt.png">
+                        </div>
+                      </td>
+                      <td><a href="" class="ml-2 text-secondary"><i class="fa fa-ellipsis-v"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>OD123456</td>
+                      <td>03/07/2020</td>
+                      <td>Mens Green Tshirt</td>
+                      <td>$ 120</td>
+                      <td class="yellow-color">Processing</td>
+                      <td>
+                        <div class="artwork-section">
+                          <img class="" src="images/artwork-icon1.svg">
+                          <img class="" src="images/artwork-icon2.svg">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tshirt-section">
+                          <img class="product-image" src="images/yellow-tshirt.svg">
+                          <img class="product-image" src="images/green-tshirt.png">
+                          <img class="product-image" src="images/green-tshirt.png">
+                        </div>
+                      </td>
+                      <td><a href="" class="ml-2 text-secondary"><i class="fa fa-ellipsis-v"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>OD123456</td>
+                      <td>03/07/2020</td>
+                      <td>Mens Green Tshirt</td>
+                      <td>$ 120</td>
+                      <td class="blue-color">Fullfilled</td>
+                      <td>
+                        <div class="artwork-section">
+                          <img class="" src="images/artwork-icon1.svg">
+                          <img class="" src="images/artwork-icon2.svg">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tshirt-section">
+                          <img class="product-image" src="images/pink2-tshirt.svg">
+                        </div>
+                      </td>
+                      <td><a href="" class="ml-2 text-secondary"><i class="fa fa-ellipsis-v"></i></a></td>
+                    </tr>
+                     <tr>
+                      <td>OD123456</td>
+                      <td>03/07/2020</td>
+                      <td>Mens Green Tshirt</td>
+                      <td>$ 120</td>
+                      <td class="green-color">Submitted</td>
+                      <td>
+                        <div class="artwork-section">
+                          <img class="" src="images/artwork-icon1.svg">
+                          <img class="" src="images/artwork-icon2.svg">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tshirt-section">
+                          <img class="product-image" src="images/green-tshirt.png">
+                          <img class="product-image" src="images/yellow-tshirt.svg">
+                          <img class="product-image" src="images/pink-tshirt.svg">
+                        </div>
+                      </td>
+                      <td><a href="" class="ml-2 text-secondary"><i class="fa fa-ellipsis-v"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>OD123456</td>
+                      <td>03/07/2020</td>
+                      <td>Mens Green Tshirt</td>
+                      <td>$ 120</td>
+                      <td class="blue-color">Accepted</td>
+                      <td>
+                        <div class="artwork-section">
+                          <img class="" src="images/artwork-icon1.svg">
+                          <img class="" src="images/artwork-icon2.svg">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tshirt-section">
+                          <img class="product-image" src="images/gray-tshirt.svg">
+                          <img class="product-image" src="images/pink2-tshirt.svg">
+                          <img class="product-image" src="images/green-tshirt.png">
+                          
+                        </div>
+                      </td>
+                      <td><a href="" class="ml-2 text-secondary"><i class="fa fa-ellipsis-v"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>OD123456</td>
+                      <td>03/07/2020</td>
+                      <td>Mens Green Tshirt</td>
+                      <td>$ 120</td>
+                      <td class="green-color">Approve Art</td>
+                      <td>
+                        <div class="artwork-section">
+                          <img class="" src="images/artwork-icon1.svg">
+                          <img class="" src="images/artwork-icon2.svg">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tshirt-section">
+                          <img class="product-image" src="images/green-tshirt.png">
+                          <img class="product-image" src="images/green-tshirt.png">
+                        </div>
+                      </td>
+                      <td><a href="" class="ml-2 text-secondary"><i class="fa fa-ellipsis-v"></i></a></td>
+                    </tr>
+                    
+                    
+                  </tbody>
+                </table>
+              </div>
+              </div><!-- col-12 -->
+              
+              </div><!-- row -->
+              </div><!-- collapseThree -->
+            </div>
+            <!-- white-block -->
+            <!-- <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-end">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav>
+ -->            
+          </div>
+        </section>
+        <!-- edit-product-variant-section -->
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper)
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script> -->
+        <!-- Option 2: jQuery, Popper.js, and Bootstrap JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+        <script>
+        
+        // file drag drop js
+        function readUrl(input) {
+        if (input.files && input.files[0]) {
+        let reader = new FileReader();
+        reader.onload = e => {
+        let imgData = e.target.result;
+        let imgName = input.files[0].name;
+        $('.cz-upload-text').html(imgName);
+        console.log(e.target.result);
+        };
+        reader.readAsDataURL(input.files[0]);
+        }
+        }
+        
+        
+        </script>
+      </body>
+    </html>
